@@ -4,8 +4,8 @@ from bluez_peripheral.advert import Advertisement
 from bluez_peripheral.util import get_message_bus, Adapter
 from bluez_peripheral.agent import NoIoAgent
 
-from testService import HeartRateService
-from testService2 import MyService
+from sHeartRateService import HeartRateService
+from sMyService import MyService
 
 # Define the releaseCallback function
 def release_callback():
